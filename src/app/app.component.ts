@@ -12,7 +12,7 @@ configure({observableRequiresReaction: true});
                        <button (click)="increment1()">+</button>
                    </div>
                    <div *mobxReaction="getCounter2.bind(this)">
-                       counter 2 (autorun): {{counter2}}
+                       counter 2 (reaction): {{counter2}}
                        <button (click)="increment2()">+</button>
                    </div>
 			   `,
